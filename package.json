@@ -1,0 +1,26 @@
+{
+  "name": "@onbo/ts-bdd-tester",
+  "version": "1.0.0",
+  "description": "A simple BDD tester for checking function output.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "node dist/test.js",
+    "dev": "ts-node src/index.ts",
+    "clear": "rm -rf dist"
+  },
+  "keywords": [
+    "ts",
+    "bdd",
+    "tests",
+    "typescript"
+  ],
+  "author": "onbo",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.7.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
